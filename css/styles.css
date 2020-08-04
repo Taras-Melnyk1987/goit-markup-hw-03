@@ -1,0 +1,140 @@
+/* палитра цветов */
+/* 2196F3 и 000000 логотип */
+/* 212121 навигация и все h */
+/* 757575 телефон, абзацы */
+/* 2F303A 80% фон героя*/
+/* FFFFFF герой и подписи на картинках и контакты в футере*/
+/* 2196F3 кнопки, ховер и фокус */
+/* 2F303A фон футера*/
+
+/*основной цвет*/
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+/*убрать точки в списках*/
+.list {
+    list-style: none;
+}
+/*убрать подчеркивание ссылки*/
+.text-decoration{
+    text-decoration: none
+}
+/*логотип*/
+.logo {
+    color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.blacklogo {
+    color: #000000;
+}
+
+/*цвет навигации header*/
+.side-nav .link {
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.auth-nav .link {
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/*hero*/
+.hero {
+    background-color: #2F303Acc;
+}
+.hero-title{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+/*batton*/
+.batton {
+    background-color: #2196F3;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+/*ховер и фокус*/
+.link:hover,
+.link:focus{
+    color: #2196F3
+}
+/*h2-h3*/
+.section-title {
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.features {
+    font-size: 14px;
+    line-height: 1.14;
+}
+.name {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/*цвет футер*/
+.footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.41;
+    letter-spacing: 0.03em;
+
+}
+/* цвет button-portfolio */
+.button-portfolio{
+    background-color: #f5f4fa;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+/*ховер и фокус button-portfolio*/
+.button-portfolio:hover,
+.button-portfolio:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+    
+}
+/*текст portfolio*/
+.portfolio-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-web{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.portgolio-description{
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+}
+/**/
