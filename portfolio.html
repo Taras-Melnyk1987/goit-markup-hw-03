@@ -9,33 +9,39 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="" class="logo text-decoration"><p>Web <span class="blacklogo">Studio</span></p></a>
-    
-            <ul class="side-nav list">
-                <li><a href="./studio.html" class="link text-decoration">Студия</a></li>
-                <li><a href="./portfolio.html" class="link text-decoration">Портфолио</a></li>
-                <li><a href="#address" class="link text-decoration">Контакты</a></li>
-            </ul>
-        </nav>    
-            <ul class="auth-nav list">
-                <li><a href="mailto:info@devstudio.com" target="_blank" class="link text-decoration">
-                    <img src="images/envelope.svg" alt="" width="16">
-                    info@devstudio.com
-                </a></li>
-        
-                <li><a href="tel:+380961111111" target="_blank" class="link text-decoration">
-                    <img src="images/vector.svg" alt="" width="10">
-                    +38 096 111 11 11
-                </a></li>
-            </ul>
+        <div class="flex">
+            <div>
+                <nav class="flex">
+                    <a href="" class="logo text-decoration"><p>Web <span class="blacklogo">Studio</span></p></a>
+            
+                    <ul class="side-nav list flex">
+                        <li><a href="./index.html" class="link text-decoration">Студия</a></li>
+                        <li><a href="./portfolio.html" class="link text-decoration">Портфолио</a></li>
+                        <li><a href="#address" class="link text-decoration">Контакты</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div>
+                <ul class="auth-nav list flex">
+                    <li><a href="mailto:info@devstudio.com" target="_blank" class="link text-decoration">
+                        <img src="images/envelope.svg" alt="" width="16">
+                        info@devstudio.com
+                    </a></li>
+            
+                    <li><a href="tel:+380961111111" target="_blank" class="link text-decoration">
+                        <img src="images/vector.svg" alt="" width="10">
+                        +38 096 111 11 11
+                    </a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
         <!--<h1>Портфолио</h1>-->
 
         <section>
-            <ul class="list">
+            <ul class="list flex">
                 <li><button type="button" class="button-portfolio">Все</button></li>
                 <li><button type="button" class="button-portfolio">Веб-сайты</button></li>
                 <li><button type="button" class="button-portfolio">Приложения</button></li>
@@ -103,35 +109,45 @@
     </main>
 
     <footer class="footer">
-        <a href="" class="logo text-decoration"><p>Web <span class="blacklogo">Studio</span></p></a>
-        <section>
-            <address id="address"><ul class="list">
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li>info@example.com</li>
-                <li>+38 099 111 11 11</li>
-            </ul></address>
-        </section>
-        <section>
-            <h2>присоединяйтесь</h2>
-            <ul class="list">
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.svg" alt="" width="44" /></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.svg" alt="" width="44" /></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg" alt="" width="44" /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.svg" alt="" width="44" /></a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Подпишитесь на рассылку</h2>
-            <button class="batton">Подписаться</button>
-        </section>
+        <div class="flex">
+            <div>
+                <a href="" class="logo text-decoration"><p>Web <span class="blacklogo">Studio</span></p></a>
+                <section>
+                    <div>
+                        <address id="address"><ul class="list">
+                            <li>г. Киев, пр-т Леси Украинки, 26</li>
+                            <li>info@example.com</li>
+                            <li>+38 099 111 11 11</li>
+                        </ul></address>
+                    </div>
+                </section>
+            </div>
+            <section>
+                <div>
+                    <h2>присоединяйтесь</h2>
+                    <ul class="list flex">
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.svg" alt="" width="44" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.svg" alt="" width="44" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg" alt="" width="44" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin.svg" alt="" width="44" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Подпишитесь на рассылку</h2>
+                    <button class="button">Подписаться</button>
+                </div>
+            </section>
+        </div>
     </footer>
 
 </body>

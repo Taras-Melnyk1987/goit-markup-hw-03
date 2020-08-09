@@ -11,6 +11,8 @@
 body {
     background-color: #ffffff;
     color: #757575;
+
+    width: 1600px;
 }
 /*убрать точки в списках*/
 .list {
@@ -28,6 +30,9 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+.logo-text{
+    margin: 0px;
 }
 .blacklogo {
     color: #000000;
@@ -53,6 +58,12 @@ body {
 /*hero*/
 .hero {
     background-color: #2F303Acc;
+    text-align: center;
+
+    width: 1600px;
+    height: 600px;
+    padding: 200px 452px;
+    margin-bottom: 94px;
 }
 .hero-title{
     color: #ffffff;
@@ -61,9 +72,12 @@ body {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
-/*batton*/
-.batton {
+/*button кнопка*/
+.button {
     background-color: #2196F3;
     color: #ffffff;
     font-family: Roboto, sans-serif;
@@ -71,6 +85,11 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
 }
 /*ховер и фокус*/
 .link:hover,
@@ -85,14 +104,20 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.features {
+.features-title {
     font-size: 14px;
     line-height: 1.14;
 }
 .name {
     font-size: 16px;
     line-height: 1.19;
+
+    margin-bottom: 10px;
 }
 
 /*цвет футер*/
@@ -137,4 +162,150 @@ body {
     line-height: 1.56;
     letter-spacing: 0.03em;
 }
-/**/
+/*подключил ссмлку на оптимизацию css*/
+/*делаем border-box, но для не нужных оставляем по умолчанию*/
+/*html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+по умолчанию в body margin 8, меняем на 0
+body{
+    margin: 0;
+}*/
+
+/*флексы для списков*/
+.flex{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+/*хедер*/
+.header{
+    width: 1600px;
+    height: 80px;
+    padding: 24px 215px 25px;
+}
+
+/*герой*/
+/*.hero{
+    display: inline-block;
+    width: 1600px;
+    height: 600px;
+    padding: 200px 452px;
+}*/
+
+
+/*картинки ы особенностях переводим в строчно-блочные*/
+.features-img{
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+    padding: 25px 70px;
+    margin-bottom: 30px;
+}
+/*убираю марджен с текста в особенностях*/
+.features-text{
+    margin: 0px;
+}
+/*добавляю нижний марджен особенностям*/
+.features{
+    width: 1600px;
+    height: 251px;
+    padding: 0px 215px;
+    margin-top: 0px;
+    margin-bottom: 94px;
+}
+.container-features{
+    width: 270px;
+    height: 251px;
+}
+/*марджены справа*/
+.container-features:not(:last-child){
+    margin-right: 30px;
+}
+/*класс для чем мы занимаемся*/
+.work{
+    width: 1600px;
+    height: 386px;
+    padding: 0px 215px;
+    margin-top: 0px;
+    margin-bottom: 94px;
+}
+.work-title{
+    margin-bottom: 50px;
+}
+.work-boxs{
+    width: 370px;
+    height: 294px;
+    padding: 0px;
+    margin: 0px;
+}
+.work-boxs:not(:last-child){
+    margin-right: 30px;
+}
+.figure{
+    margin: 0px;
+}
+.figcaption{
+    text-align: center;
+}
+
+/*наша жизнь*/
+.team{
+    width: 1600px;
+    height: 702px;
+    padding: 94px 215px;
+    margin: 0px;
+    background: #F5F4FA;
+}
+.team-title{
+    margin-bottom: 50px;
+}
+.team-boxs{
+    width: 270px;
+    height: 422px;
+    padding: 0px;
+    margin: 0px;
+}
+.team-boxs:not(:last-child){
+    margin-right: 30px;
+}
+.team-profession{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.team-img{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.team-icons{
+    width: 270px;
+    height: 44px;
+    padding: 0px 32px;
+}
+}
+.team-icon:not(:last-child){
+    margin-right: 10px;
+}
+/*клиенты*/
+.clients{
+    width: 1600px;
+    height: 370px;
+    padding: 94px 215px;
+}
+.clients-title{
+    margin-bottom: 50px;
+}
+.clients-box{
+    width: 170px;
+    height: 90px;
+}
+.clients-box:not(:last-child){
+    margin-right: 30px;
+}
+
