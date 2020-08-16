@@ -14,6 +14,10 @@ body {
 
     width: 1600px;
 }
+/*центрировать контент в секциях*/
+.container{
+    text-align: center;
+}
 /*убрать точки в списках*/
 .list {
     list-style: none;
@@ -192,8 +196,7 @@ body{
 /*хедер*/
 .header{
     width: 1600px;
-    height: 80px;
-    padding: 0px 215px;
+    padding: 24px 215px 25px;
 }
 .header-central{
     align-items: center;
@@ -221,7 +224,7 @@ body{
 
 
 
-/*картинки ы особенностях переводим в строчно-блочные*/
+/*картинки в особенностях переводим в строчно-блочные*/
 .features-img{
     display: inline-block;
     width: 270px;
@@ -236,7 +239,6 @@ body{
 /*добавляю нижний марджен особенностям*/
 .features{
     width: 1600px;
-    height: 251px;
     padding: 0px 215px;
     margin-top: 0px;
     margin-bottom: 94px;
@@ -252,7 +254,6 @@ body{
 /*класс для чем мы занимаемся*/
 .work{
     width: 1600px;
-    height: 386px;
     padding: 0px 215px;
     margin-top: 0px;
     margin-bottom: 94px;
@@ -279,7 +280,7 @@ body{
 /*наша жизнь*/
 .team{
     width: 1600px;
-    height: 702px;
+    /*height: 702px;*/
     padding: 94px 215px;
     margin: 0px;
     background: #F5F4FA;
@@ -316,7 +317,6 @@ body{
 /*клиенты*/
 .clients{
     width: 1600px;
-    height: 370px;
     padding: 94px 215px;
 }
 .clients-title{
