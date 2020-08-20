@@ -360,10 +360,10 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-.footer-adderes:not(:last-child){
+.footer-adderess:not(:last-child){
     margin-bottom: 9px;
 }
-.color-addres{
+.color-address{
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-social{
