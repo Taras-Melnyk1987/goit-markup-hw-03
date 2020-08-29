@@ -68,16 +68,26 @@ body {
 }
 /*hero*/
 .hero {
-    background-color: #2F303Acc;
+    background-color: #c4c4c4;
     text-align: center;
 
-    /*width: 1600px;
-    height: 600px;*/
-    padding: 200px 452px;
-    margin-bottom: 94px;
+    display: flex;
+    max-width: 1600px;
+    min-height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    /*padding: 200px 452px;
+    margin-bottom: 94px;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.container-hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 696px;
+    margin: auto;
 }
 .hero-title{
     color: #ffffff;
@@ -381,8 +391,7 @@ header{
 
 /*портфолио*/
 .portfolio-magabox{
-    width: 1200px;
-    padding: 94px 15px;
+    padding: 94px 200px;
     margin-left: auto;
     margin-right: auto;
 }
