@@ -155,6 +155,8 @@ body {
     align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -375,7 +377,7 @@ body{
 .footer-address{
     display: block;
     width: 300px;
-    padding-left: 0px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 .footer-adderess:not(:last-child){
@@ -394,7 +396,7 @@ body{
 .footer-button{
     width: 600px;
     padding-left: 15px;
-    padding-right: 0px;
+    padding-right: 15px;
 }
 .footer-contact{
     margin: 0px;
