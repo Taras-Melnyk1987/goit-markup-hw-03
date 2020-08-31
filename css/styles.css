@@ -12,7 +12,7 @@ body {
     background-color: #ffffff;
     color: #757575;
 
-    width: 1600px;
+    /*width: 1600px;*/
 }
 /*центрировать контент в секциях*/
 .container{
@@ -71,9 +71,9 @@ body {
     background-color: #c4c4c4;
     text-align: center;
 
-    display: flex;
-    max-width: 1600px;
+    /*max-width: 1600px;*/
     min-height: 600px;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     /*padding: 200px 452px;
@@ -145,15 +145,21 @@ body {
 }
 
 /*цвет футер*/
-footer {
+.footer{
     background-color: #2F303A;
     color: #ffffff;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.41;
     letter-spacing: 0.03em;
-    padding: 60px 200px;
-
 }
 /* цвет button-portfolio */
 .button-portfolio{
@@ -215,14 +221,13 @@ body{
     margin: 0px;
 }
 /*хедер*/
-header{
-    padding-left: 200px;
-    padding-right: 200px;
-    border: 1px solid #ECECEC;
-}
 .header{
-    padding: 24px 15px 25px;
+    display: flex;
     align-items: center;
+    padding: 24px 15px 25px;
+    border: 1px solid #ECECEC;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-central{
     align-items: center;
@@ -264,10 +269,17 @@ header{
 /*убираю марджен с текста в особенностях*/
 .features-text{
     margin: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /*добавляю нижний марджен особенностям*/
 .features{
-    padding: 0px 200px;
+    padding: 0px 0px;
     margin-top: 0px;
     margin-bottom: 94px;
 }
@@ -281,7 +293,7 @@ header{
 }
 /*класс для чем мы занимаемся*/
 .work{
-    padding: 0px 200px;
+    padding: 0px 0px;
     margin-top: 0px;
     margin-bottom: 94px;
 }
@@ -306,7 +318,7 @@ header{
 
 /*наша жизнь*/
 .team{
-    padding: 94px 200px;
+    padding: 94px 0px;
     background: #F5F4FA;
 }
 .team-title{
@@ -340,7 +352,7 @@ header{
 }
 /*клиенты*/
 .clients{
-    padding: 94px 200px;
+    padding: 94px 0px;
 }
 .clients-title{
     margin-bottom: 50px;
@@ -363,7 +375,7 @@ header{
 .footer-address{
     display: block;
     width: 300px;
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 15px;
 }
 .footer-adderess:not(:last-child){
@@ -373,7 +385,6 @@ header{
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-social{
-    
     width: 300px;
     padding: 0px 15px;
 }
@@ -382,7 +393,8 @@ header{
 }
 .footer-button{
     width: 600px;
-    padding: 0px 15px;
+    padding-left: 15px;
+    padding-right: 0px;
 }
 .footer-contact{
     margin: 0px;
@@ -391,7 +403,7 @@ header{
 
 /*портфолио*/
 .portfolio-magabox{
-    padding: 94px 200px;
+    padding: 94px 0px;
     margin-left: auto;
     margin-right: auto;
 }
